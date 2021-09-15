@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    font-size: 24px ;
+    font-family: caveat ;
+    background-color:bisque;
+}
+@font-face {
+    font-family:Caveat;
+    src: url(/fonts/Caveat-Medium.ttf);
+}

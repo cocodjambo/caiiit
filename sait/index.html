@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/style.css">
+    <title>Страница бронирования</title>
+</head>
+<body>
+    
+      
+        <section class="zac">
+            <h2>
+                Данные о заказе:
+                </h2>
+                <p>Регион
+                    <select>
+                        <optgroup label="Выбор региона">
+                            
+                            <option>ХМАО</option>
+                            <option>Тюменская область</option>
+                            <option>РТ</option>
+                           
+                        </optgroup>
+                    </select><br>
+                    Адрес кемпинга
+                    <select>
+                        <optgroup label="Адрес">
+                            
+                            <option>8a 37</option>
+                            <option>17d 56</option>
+                            <option>15'2</option>
+                           
+                        </optgroup>
+                    </select><br>
+                   
+                    <label for="meeting-time">Дата саселение</label>
+
+                    <input type="datetime-local" id="meeting-time"
+                    name="meeting-time" value="2018-06-12T19:30"
+                     min="2018-06-07T00:00" max="2018-06-14T00:00">
+                   <br>
+                         
+                           
+                   
+                    
+                    <label for="meeting-time">Дата выселения</label>
+
+                    <input type="datetime-local" id="meeting-time"
+                           name="meeting-time" value="2018-06-12T19:30"
+                           min="2018-06-07T00:00" max="2018-06-14T00:00">
+                           <br>
+                   
+                </p>
+        </section>
+        <section class="post">
+            <h2>
+                Данные о постояльцах:
+                </h2>
+                <p>
+                    Фамиллия <br>
+                    <input type="text" id="name" value="" required> <br>
+                Имя<br>
+                <input type="text" id="name" value="" required> <br>
+                Отчество<br>
+                <input type="text" id="name" value="" required> <br>
+                Дата рождения<br>
+                <input type="datetime-local" id="meeting-time"
+                    name="meeting-time" value="2018-06-12T19:30"
+                     min="2018-06-07T00:00" max="2018-06-14T00:00">
+                   <br>
+                         
+                Номер документа<br>
+                <input type="text" id="name" value="" required> <br>
+                </p>
+        </section>
+        <section class="us">
+            <h2>
+                Выбор дополнительных услуг:
+                </h2>
+                <p>
+                Медицинское сопровождение
+                <input type="checkbox" id="skales" value="" required> <br>
+                Курьерские услуги
+                <input type="checkbox" id="skales" name="" reguired> <br>
+                Питание
+                <input type="checkbox" id="skales" value="" required> <br>
+                
+                <label for="tentacles">Кол-во человек:
+                    <input type="number" id="tentacles" name="tentacles"
+       min="1" max="10">
+                </label>
+            </p>
+                <button>
+                    Оформить
+                </button>
+                
+        </section>
+     
+      
+    
+</body>
+</html>
